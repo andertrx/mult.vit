@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "title": "Multivit Complete",
+    "slug": "multivit-complete",
+    "description": "Fórmula completa com 25 vitaminas e minerais essenciais para o seu dia a dia. Desenvolvido para adultos que buscam energia, imunidade e bem-estar geral.",
+    "price": 89.90,
+    "images": [
+      "/images/multivit-complete-1.jpg",
+      "/images/multivit-complete-2.jpg",
+      "/images/multivit-complete-3.jpg"
+    ],
+    "stock": 150,
+    "category": "Multivitamínicos",
+    "variants": [
+      { "name": "60 cápsulas", "priceModifier": 0 },
+      { "name": "120 cápsulas", "priceModifier": 30 }
+    ],
+    "benefits": [
+      "Energia e disposição",
+      "Sistema imunológico fortalecido",
+      "Saúde dos ossos e músculos"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Multivit Energy Plus",
+    "slug": "multivit-energy-plus",
+    "description": "Potencialize sua energia com vitaminas B, Cafeína Natural e Ginseng. Ideal para quem leva uma vida ativa e precisa de energia extra no dia a dia.",
+    "price": 99.90,
+    "images": [
+      "/images/multivit-energy-1.jpg",
+      "/images/multivit-energy-2.jpg",
+      "/images/multivit-energy-3.jpg"
+    ],
+    "stock": 120,
+    "category": "Energia",
+    "variants": [
+      { "name": "30 cápsulas", "priceModifier": 0 },
+      { "name": "60 cápsulas", "priceModifier": 25 }
+    ],
+    "benefits": [
+      "Aumento da energia e foco",
+      "Combate ao cansaço físico e mental",
+      "Melhora do desempenho nas atividades"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Multivit Immunity Defense",
+    "slug": "multivit-immunity-defense",
+    "description": "Reforce suas defesas naturais com Vitamina C, D, Zinco e Selênio. Fórmula especialmente desenvolvida para fortalecer o sistema imunológico.",
+    "price": 79.90,
+    "images": [
+      "/images/multivit-immunity-1.jpg",
+      "/images/multivit-immunity-2.jpg",
+      "/images/multivit-immunity-3.jpg"
+    ],
+    "stock": 200,
+    "category": "Imunidade",
+    "variants": [
+      { "name": "60 cápsulas", "priceModifier": 0 },
+      { "name": "120 cápsulas", "priceModifier": 28 }
+    ],
+    "benefits": [
+      "Proteção contra gripes e resfriados",
+      "Fortalecimento das defesas naturais",
+      "Ação antioxidante"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Multivit Hair & Nails",
+    "slug": "multivit-hair-nails",
+    "description": "Beleza que vem de dentro. Biotina, Colágeno e vitaminas específicas para cabelos fortes, unhas saudáveis e pele radiante.",
+    "price": 94.90,
+    "images": [
+      "/images/multivit-beauty-1.jpg",
+      "/images/multivit-beauty-2.jpg",
+      "/images/multivit-beauty-3.jpg"
+    ],
+    "stock": 180,
+    "category": "Beleza",
+    "variants": [
+      { "name": "60 cápsulas", "priceModifier": 0 },
+      { "name": "90 cápsulas", "priceModifier": 20 }
+    ],
+    "benefits": [
+      "Fortalecimento de cabelos e unhas",
+      "Pele mais saudável e radiante",
+      "Redução da queda capilar"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Multivit Kids Growth",
+    "slug": "multivit-kids-growth",
+    "description": "Crescimento saudável para crianças de 4 a 12 anos. Vitaminas essenciais com sabor agradável que as crianças adoram.",
+    "price": 69.90,
+    "images": [
+      "/images/multivit-kids-1.jpg",
+      "/images/multivit-kids-2.jpg",
+      "/images/multivit-kids-3.jpg"
+    ],
+    "stock": 160,
+    "category": "Infantil",
+    "variants": [
+      { "name": "30 gomas", "priceModifier": 0 },
+      { "name": "60 gomas", "priceModifier": 22 }
+    ],
+    "benefits": [
+      "Suporte ao crescimento saudável",
+      "Fortalecimento ósseo",
+      "Melhora da concentração"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Multivit Senior 50+",
+    "slug": "multivit-senior-50plus",
+    "description": "Formulação especial para adultos acima de 50 anos. Vitaminas e minerais adequados para saúde cardiovascular, cognitiva e óssea.",
+    "price": 84.90,
+    "images": [
+      "/images/multivit-senior-1.jpg",
+      "/images/multivit-senior-2.jpg",
+      "/images/multivit-senior-3.jpg"
+    ],
+    "stock": 140,
+    "category": "Senior",
+    "variants": [
+      { "name": "60 cápsulas", "priceModifier": 0 },
+      { "name": "120 cápsulas", "priceModifier": 32 }
+    ],
+    "benefits": [
+      "Saúde cardiovascular",
+      "Memória e função cognitiva",
+      "Fortalecimento ósseo e articular"
+    ]
+  }
+]

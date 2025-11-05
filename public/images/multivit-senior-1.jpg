@@ -1,0 +1,5 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#9cc679"/>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">Multivit Senior</text>
+  <circle cx="400" cy="500" r="80" fill="white" opacity="0.2"/>
+</svg>
