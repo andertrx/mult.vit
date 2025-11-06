@@ -2,25 +2,10 @@ import { ProductCard } from '@/components/ui/ProductCard'
 import { ButtonLink } from '@/components/ui/Button'
 import { Product } from '@/types'
 import Link from 'next/link'
+import productsData from '@/data/products.json'
 
-async function getProducts(): Promise<Product[]> {
-  // Em produção, use a URL completa do seu domínio
-  const baseUrl = process.env.NEXT_PUBLIC_URL || 'http://localhost:3000'
-  const res = await fetch(`${baseUrl}/api/products`, {
-    cache: 'no-store',
-  })
-
-  if (!res.ok) {
-    // Durante build, leia diretamente do arquivo
-    const productsData = await import('@/data/products.json')
-    return productsData.default as Product[]
-  }
-
-  return res.json()
-}
-
-export default async function HomePage() {
-  const products = await getProducts()
+export default function HomePage() {
+  const products = productsData as Product[]
 
   return (
     <>
