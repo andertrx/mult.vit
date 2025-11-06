@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useCart } from '@/lib/cart-context'
@@ -10,8 +9,8 @@ import { formatPrice, calculateShipping, calculateTotal } from '@/utils/price'
 import { CheckoutRequest } from '@/types'
 
 export default function CartPage() {
-  const router = useRouter()
-  const { cart, removeItem, updateQuantity, getCartTotal, clearCart } = useCart()
+  const { cart, removeItem, updateQuantity, getCartTotal, clearCart } =
+    useCart()
   const [isProcessing, setIsProcessing] = useState(false)
 
   const subtotal = getCartTotal()
